@@ -1,0 +1,27 @@
+File name, Expose DP comm, Expose DP_EP comm, Expose TP comm, Expose_EP_comm, Expose_PP_comm, bubble time, total comp, total exposed comm, Total time
+all_gather-, 0 (0.00%), 0 (0.00%), 41147 (100.00%), 0 (0.00%), 0 (0.00%), 0 (0.00%), 0 (0.00%), 41147 (100.00%), 41147
+layer_name,Analytical_test,fwd compute,wg compute,ig compute,fwd exposed comm,wg exposed comm,ig exposed comm,fwd total comm,algbw,busbw,wg total comm,algbw,busbw,ig total comm,algbw,busbw
+layer_1024,Analytical_test,0,0,0,12,0,0,12,0.32,0.24,0,-nan,0.00,0,-nan,0.00
+layer_2048,Analytical_test,0,0,0,12,0,0,12,0.32,0.24,0,-nan,0.00,0,-nan,0.00
+layer_4096,Analytical_test,0,0,0,12,0,0,12,0.32,0.24,0,-nan,0.00,0,-nan,0.00
+layer_8192,Analytical_test,0,0,0,12,0,0,12,0.64,0.48,0,-nan,0.00,0,-nan,0.00
+layer_16384,Analytical_test,0,0,0,12,0,0,12,1.27,0.95,0,-nan,0.00,0,-nan,0.00
+layer_32768,Analytical_test,0,0,0,12,0,0,12,2.54,1.91,0,-nan,0.00,0,-nan,0.00
+layer_65536,Analytical_test,0,0,0,12,0,0,12,5.09,3.81,0,-nan,0.00,0,-nan,0.00
+layer_131072,Analytical_test,0,0,0,12,0,0,12,10.17,7.63,0,-nan,0.00,0,-nan,0.00
+layer_262144,Analytical_test,0,0,0,12,0,0,12,20.35,15.26,0,-nan,0.00,0,-nan,0.00
+layer_524288,Analytical_test,0,0,0,12,0,0,12,40.69,30.52,0,-nan,0.00,0,-nan,0.00
+layer_1048576,Analytical_test,0,0,0,4,0,0,4,223.01,167.26,0,-nan,0.00,0,-nan,0.00
+layer_2097152,Analytical_test,0,0,0,9,0,0,9,222.98,167.24,0,-nan,0.00,0,-nan,0.00
+layer_4194304,Analytical_test,0,0,0,18,0,0,18,222.97,167.23,0,-nan,0.00,0,-nan,0.00
+layer_8388608,Analytical_test,0,0,0,35,0,0,35,222.97,167.22,0,-nan,0.00,0,-nan,0.00
+layer_16777216,Analytical_test,0,0,0,70,0,0,70,222.97,167.22,0,-nan,0.00,0,-nan,0.00
+layer_33554432,Analytical_test,0,0,0,115,0,0,115,272.51,204.38,0,-nan,0.00,0,-nan,0.00
+layer_67108864,Analytical_test,0,0,0,194,0,0,194,322.06,241.54,0,-nan,0.00,0,-nan,0.00
+layer_134217728,Analytical_test,0,0,0,366,0,0,366,341.88,256.41,0,-nan,0.00,0,-nan,0.00
+layer_268435456,Analytical_test,0,0,0,691,0,0,691,361.70,271.27,0,-nan,0.00,0,-nan,0.00
+layer_536870912,Analytical_test,0,0,0,1328,0,0,1328,376.56,282.42,0,-nan,0.00,0,-nan,0.00
+layer_1073741824,Analytical_test,0,0,0,2621,0,0,2621,381.51,286.14,0,-nan,0.00,0,-nan,0.00
+layer_2147483648,Analytical_test,0,0,0,5175,0,0,5175,386.47,289.85,0,-nan,0.00,0,-nan,0.00
+layer_4294967296,Analytical_test,0,0,0,10219,0,0,10219,391.42,293.57,0,-nan,0.00,0,-nan,0.00
+layer_8589934592,Analytical_test,0,0,0,20183,0,0,20183,396.38,297.28,0,-nan,0.00,0,-nan,0.00
