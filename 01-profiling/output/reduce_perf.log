@@ -1,0 +1,48 @@
+# host=n3015-007 job=1185581 date=2026-05-14T03:39:57+02:00
+# binary=/home/fu92078/thesis/benchmarks/nccl_tests/nccl-tests-src/build/reduce_perf
+# args=-b 1K -e 8G -f 2 -g 4 -n 50 -w 10 -c 1
+# container=/home/fu92078/containers/pytorch_25.04-py3.sif
+# nccl-tests commit=f727aa2
+# nccl-tests version 2.18.3 nccl-headers=22603 nccl-library=22603
+# Collective test starting: reduce_perf
+# nThread 1 nGpus 4 minBytes 1024 maxBytes 8589934592 step: 2(factor) warmup iters: 10 iters: 50 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid 178508 on  n3015-007 device  0 [0000:06:00] NVIDIA H100
+#  Rank  1 Group  0 Pid 178508 on  n3015-007 device  1 [0000:26:00] NVIDIA H100
+#  Rank  2 Group  0 Pid 178508 on  n3015-007 device  2 [0000:a6:00] NVIDIA H100
+#  Rank  3 Group  0 Pid 178508 on  n3015-007 device  3 [0000:c6:00] NVIDIA H100
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong 
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)         
+        1024           256     float     sum       0    15.11    0.07    0.07       0    14.75    0.07    0.07       0
+        2048           512     float     sum       0    14.84    0.14    0.14       0    14.96    0.14    0.14       0
+        4096          1024     float     sum       0    14.90    0.27    0.27       0    14.79    0.28    0.28       0
+        8192          2048     float     sum       0    14.73    0.56    0.56       0    14.90    0.55    0.55       0
+       16384          4096     float     sum       0    14.67    1.12    1.12       0    14.56    1.13    1.13       0
+       32768          8192     float     sum       0    14.81    2.21    2.21       0    14.93    2.19    2.19       0
+       65536         16384     float     sum       0    15.21    4.31    4.31       0    15.29    4.29    4.29       0
+      131072         32768     float     sum       0    15.50    8.46    8.46       0    15.37    8.53    8.53       0
+      262144         65536     float     sum       0    16.17   16.22   16.22       0    16.18   16.20   16.20       0
+      524288        131072     float     sum       0    16.86   31.10   31.10       0    17.05   30.76   30.76       0
+     1048576        262144     float     sum       0    17.16   61.09   61.09       0    17.12   61.23   61.23       0
+     2097152        524288     float     sum       0    21.41   97.95   97.95       0    21.40   98.01   98.01       0
+     4194304       1048576     float     sum       0    29.24  143.46  143.46       0    29.05  144.37  144.37       0
+     8388608       2097152     float     sum       0    43.28  193.84  193.84       0    43.17  194.33  194.33       0
+    16777216       4194304     float     sum       0   118.75  141.29  141.29       0   122.06  137.46  137.46       0
+    33554432       8388608     float     sum       0   163.07  205.77  205.77       0   163.36  205.40  205.40       0
+    67108864      16777216     float     sum       0   277.12  242.17  242.17       0   276.57  242.65  242.65       0
+   134217728      33554432     float     sum       0   471.33  284.76  284.76       0   469.71  285.74  285.74       0
+   268435456      67108864     float     sum       0   852.57  314.86  314.86       0   853.97  314.34  314.34       0
+   536870912     134217728     float     sum       0  1617.06  332.00  332.00       0  1616.48  332.12  332.12       0
+  1073741824     268435456     float     sum       0  3134.14  342.59  342.59       0  3136.65  342.32  342.32       0
+  2147483648     536870912     float     sum       0  6162.62  348.47  348.47       0  6178.22  347.59  347.59       0
+  4294967296    1073741824     float     sum       0  12237.3  350.97  350.97       0  12259.3  350.34  350.34       0
+  8589934592    2147483648     float     sum       0  24467.9  351.07  351.07       0  24481.6  350.87  350.87       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 144.701 
+#
+# Collective test concluded: reduce_perf
+#
+
