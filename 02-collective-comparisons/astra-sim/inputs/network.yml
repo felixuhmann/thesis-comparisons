@@ -1,0 +1,4 @@
+topology: [ Ring ]
+npus_count: [ 4 ]
+bandwidth: [ 300.0 ]  # 6 x NVLink 4.0, 50 GB/s each
+latency:   [ 700.0 ]

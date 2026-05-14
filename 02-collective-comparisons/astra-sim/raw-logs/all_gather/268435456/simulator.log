@@ -1,0 +1,28 @@
+# AstraSim analytical congestion-aware
+# cmd: /home/felix/repos-v2/astra-sim/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Aware --workload-configuration=/home/felix/repos-v2/results/h100-nccl-analytical-1gib-replay/output/sweep_20260514T161041Z/workload/all_gather/268435456/all_gather --system-configuration=/home/felix/repos-v2/results/h100-nccl-analytical-1gib-replay/inputs/system.json --network-configuration=/home/felix/repos-v2/results/h100-nccl-analytical-1gib-replay/inputs/network.yml --remote-memory-configuration=/home/felix/repos-v2/results/h100-nccl-analytical-1gib-replay/inputs/remote_memory.json
+# ---
+[2026-05-14 18:10:41.681] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.681] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.681] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.681] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.682] [workload] [info] sys[1] finished, 627296 cycles, exposed communication 627296 cycles.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[1]. Post statistics processing start.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[1]. Post statistics processing end.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[1], Wall time: 627296
+[2026-05-14 18:10:41.682] [statistics] [info] sys[1], Comm time: 627296
+[2026-05-14 18:10:41.682] [workload] [info] sys[2] finished, 627296 cycles, exposed communication 627296 cycles.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[2]. Post statistics processing start.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[2]. Post statistics processing end.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[2], Wall time: 627296
+[2026-05-14 18:10:41.682] [statistics] [info] sys[2], Comm time: 627296
+[2026-05-14 18:10:41.682] [workload] [info] sys[3] finished, 627296 cycles, exposed communication 627296 cycles.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[3]. Post statistics processing start.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[3]. Post statistics processing end.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[3], Wall time: 627296
+[2026-05-14 18:10:41.682] [statistics] [info] sys[3], Comm time: 627296
+[2026-05-14 18:10:41.682] [workload] [info] sys[0] finished, 627296 cycles, exposed communication 627296 cycles.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[0]. Post statistics processing start.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[0]. Post statistics processing end.
+[2026-05-14 18:10:41.682] [statistics] [info] sys[0], Wall time: 627296
+[2026-05-14 18:10:41.682] [statistics] [info] sys[0], Comm time: 627296
+[2026-05-14 18:10:41.682] [system] [warning] Exiting

@@ -1,0 +1,25 @@
+[2026-05-14 18:10:41.768] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.768] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.768] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.768] [system::topology::RingTopology] [info] ring of node 0, id: 0 dimension: local total nodes in ring: 4 index in ring: 0 offset: 1 total nodes in ring: 4
+[2026-05-14 18:10:41.769] [workload] [info] sys[2] finished, 10702 cycles, exposed communication 10702 cycles.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[2]. Post statistics processing start.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[2]. Post statistics processing end.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[2], Wall time: 10702
+[2026-05-14 18:10:41.769] [statistics] [info] sys[2], Comm time: 10702
+[2026-05-14 18:10:41.769] [workload] [info] sys[3] finished, 10702 cycles, exposed communication 10702 cycles.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[3]. Post statistics processing start.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[3]. Post statistics processing end.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[3], Wall time: 10702
+[2026-05-14 18:10:41.769] [statistics] [info] sys[3], Comm time: 10702
+[2026-05-14 18:10:41.769] [workload] [info] sys[0] finished, 10702 cycles, exposed communication 10702 cycles.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[0]. Post statistics processing start.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[0]. Post statistics processing end.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[0], Wall time: 10702
+[2026-05-14 18:10:41.769] [statistics] [info] sys[0], Comm time: 10702
+[2026-05-14 18:10:41.769] [workload] [info] sys[1] finished, 10702 cycles, exposed communication 10702 cycles.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[1]. Post statistics processing start.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[1]. Post statistics processing end.
+[2026-05-14 18:10:41.769] [statistics] [info] sys[1], Wall time: 10702
+[2026-05-14 18:10:41.769] [statistics] [info] sys[1], Comm time: 10702
+[2026-05-14 18:10:41.769] [system] [warning] Exiting
